@@ -26,7 +26,7 @@ const productos = [
     precio: "12.990",
     precioOriginal: "",
     descuento: "",
-    colorPrecio: "",
+    colorPrecio: "#ff0000",
     colorBoton: "",
   },
   {

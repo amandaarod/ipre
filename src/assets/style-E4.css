@@ -1,7 +1,7 @@
 :root {
   /* Colores base */
-  --color-boton-agregar: #007bff;
-  --color-precio-grande-E4: #1a8f2b;
+  --color-boton-agregar: #000000;
+  --color-precio-grande-E4: #000000;
   --color-estrella-activa: #f7b500;
   --color-estrella-inactiva: #ccc;
   --color-texto-descripcion: #555;
