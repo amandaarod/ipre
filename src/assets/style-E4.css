@@ -1,0 +1,131 @@
+:root {
+  /* Colores base */
+  --color-boton-agregar: #007bff;
+  --color-precio-grande-E4: #1a8f2b;
+  --color-estrella-activa: #f7b500;
+  --color-estrella-inactiva: #ccc;
+  --color-texto-descripcion: #555;
+  --color-precio-default: #131313;
+  --color-marca-grande: #555;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.boton-agregar {
+  background-color: var(--color-boton-agregar);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 16px;
+}
+
+.descripcion {
+  color: var(--color-texto-descripcion);
+  font-size: 1rem;
+}
+
+.estrella {
+  color: var(--color-estrella-inactiva);
+  height: 20px;
+  width: 20px;
+}
+
+.estrella.activa {
+  color: var(--color-estrella-activa);
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.imagenes {
+  flex: 1;
+  margin-left: 2%;
+  min-width: 280px;
+}
+
+.imagenes-grandes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.img-grande {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: 45%;
+}
+
+.info-producto {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 12px;
+  margin-right: 5%;
+  min-width: 280px;
+}
+
+.marca-grande {
+  font-size: 0.9rem;
+  color: var(--color-marca-grande);
+  text-transform: uppercase; 
+  letter-spacing: 0.5px;
+  margin-bottom: -6px;
+}
+
+
+.miniatura {
+  border: 2px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 60px;
+  object-fit: cover;
+  width: 60px;
+}
+
+.miniatura:hover {
+  border-color: var(--color-boton);
+}
+
+.miniaturas {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.precio-grande {
+  color: var(--color-precio-grande-E4);
+  font-weight: bold;
+}
+
+.precio-estrellas {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 16px;
+}
+
+.producto-detalle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 24px;
+}
+
+.relacionados {
+  margin-left: 2%;
+  padding: 24px;
+}
+
+.titulo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 0;
+}

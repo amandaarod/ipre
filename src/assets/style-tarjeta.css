@@ -1,0 +1,92 @@
+:root {
+  --color-nombre: #444;
+  --color-precio-original: #888;
+  --color-precio-default:#000000;
+  --color-boton-agregar-carrito: #007bff;
+}
+
+.boton-carro {
+  align-items: center;
+  background: white;
+  border: 2px solid;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  font-size: 0.85rem;
+  font-weight: 500;
+  gap: 6px;
+  justify-content: center;
+  margin-top: 8px;
+  padding: 6px 12px;
+  transition: all 0.2s ease-in-out;
+  color: var(--color-boton-agregar-carrito)
+}
+
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  gap: 4px;
+  padding: 12px;
+  flex-grow: 1; 
+}
+
+
+.descuento {
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.imagen {
+  object-fit: cover;
+  width: 100%;
+}
+
+.marca {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nombre {
+  color: var(--color-nombre);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.precio {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.precio-con-descuento {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.precio-original {
+  color: var(--color-precio-original);
+  font-size: 0.75rem;
+  text-decoration: line-through;
+}
+
+.precios {
+  display: flex;
+  flex-direction: column;
+  margin: 6px 0;
+}
+
+.tarjeta {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 220px;
+  padding-bottom: 10px;
+
+}
+
